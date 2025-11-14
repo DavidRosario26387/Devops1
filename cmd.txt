@@ -1,0 +1,20 @@
+-------push--------
+
+git init
+git add .
+git commit -m "message"
+git branch -M main
+git remote add origin "repo-link"
+git push -u origin main
+
+--------branch-----------
+
+git checkout -b feature-branch
+git add .
+git commit -m "new feature"
+git push origin feature-branch
+
+(merge branges in github pull request)
+
+git checkout main
+git pull origin main
