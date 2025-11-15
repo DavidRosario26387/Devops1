@@ -18,3 +18,10 @@ git push origin feature-branch
 
 git checkout main
 git pull origin main
+
+
+
+
+----reset login-------
+git config --global user.name "NewUsername"
+git config --global user.email "newemail@example.com"
